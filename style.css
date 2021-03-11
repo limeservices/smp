@@ -159,14 +159,16 @@ iframe {
 	/* TEXT */
 		font-size:17.5px;
 	/* POSITION */
-		top:5%;
-		left:5%;
+		padding-top:2.5%;
+		padding-left:5%;
+		padding-right:5%;
 }
 .smptitle {
 	position:relative;
 	/* TEXT */
 		font-size: 32px;
+		font-weight:bold;
 		text-align: center;
 	/* POSITION */
-		top:5%;
+		padding-top:5%;
 }
