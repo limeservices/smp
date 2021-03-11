@@ -1,0 +1,156 @@
+/* STOP SIDE SCROLLING */
+html, body {
+	/* MAX SIZE */
+	max-width: 100%;
+	/* HIDER BAR */
+	overflow-x: hidden;
+}
+/* SITE */
+body {
+	/* BACKGROUND COLOR MAIN */
+	background-image: linear-gradient(to bottom, #00FF27 100%, #00FF27 0%);
+	/* WEBSITE FONT */
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+/* EVERYTHING DOES INSIDE */
+.box {
+	position:absolute;
+	/* POSITION */
+		top:0px;
+		right:0px;
+		bottom:0px;
+		left:0px;
+	/* SIZE */
+		min-width:500px;	
+}
+
+/* LOGO */
+.logo {
+	position:relative;
+	/* BACKGROUND COLOR */
+		background: #272727;
+	/* POSITION */
+		top:0px;
+		right:0px;
+		left:0px;
+	/* TEXT */
+		text-align: center;
+}
+
+/* MENU SYSTEM */
+.nav {
+	position:relative;
+	/* BACKGROUND COLOR */
+		background:#323232;
+	/* POSITION */
+		top:0px;
+	/* TEXT */
+		/* CENTERED */
+			text-align:center;
+		/* COLOR */
+			color:#f5f5f5;
+		/* SPACE */
+			word-spacing:2.5em;
+	/* SPACING */
+		padding-top:0.5%;
+		padding-bottom:0.5%;
+}
+
+/* MAIN PAGE CONTENT */
+.content {
+	position:relative;
+	/* TEXT */
+		font-size:17.5px;
+	/* POSITION */
+		top:5%;
+}
+
+/* CENTER */
+.center {
+	/* TEXT */
+	text-align:center;
+}
+
+/* HOME PAGE SOCIAL LINKS */
+.socials {
+	position:relative;
+	top:40%;
+	/* TEXT */
+		text-align:center;
+		font-size:0px;
+	/* CENTRE */
+		-ms-transform: translateY(-50%);
+  		transform: translateY(-50%);
+}
+
+/* ERROR 404 PAGE */
+.error404 {
+	position:relative;
+	top:40%;
+	/* TEXT */
+		text-align:center;
+	/* CENTRE */
+		-ms-transform: translateY(-50%);
+  		transform: translateY(-50%);
+}
+
+/* DONATE */
+.donate {
+	position: relative;
+	/* TEXT */
+		color: #272727;
+		text-align: center;
+		font-size: 25px;
+}
+
+/* PORTFOLIO */
+.portfolio {
+	position: relative;
+	/* TEXT */
+		text-align:center;
+}
+
+/* PORTFOLIO FULL SCREEN VIDEO */
+iframe {
+	position:relative;
+	right: 0;
+	bottom:0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+   	height: auto;
+}
+
+/* PORTFOLIO PAGE */
+.portp {
+	position:absolute;
+	/* BACKGROUND COLOR */
+		background: #323232;
+	/* POSITION */
+		top:0px;
+		right:0px;
+		bottom:0px;
+		left:0px;
+	/* SIZE */
+		min-width:500px;
+}
+
+/* PORTFOLIO BACK BUTTON */
+.back {
+	position:fixed;
+	/* BUTTON COLOR */
+		background:#323232;
+	/* POSITION */
+		left:90%;
+		top:90%;
+		right:0%;
+	/* TEXT */
+		color:#f5f5f5;
+		text:100%;
+	/* SPACING */
+		padding-left:0.5%;
+		padding-right:0.5%;
+		padding-top:0.5%;
+		padding-bottom:0.5%;
+}
