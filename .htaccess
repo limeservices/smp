@@ -1,0 +1,8 @@
+ErrorDocument 404 /404.html
+AddHandler server-parsed .html
+AddDefaultCharset utf-8
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
